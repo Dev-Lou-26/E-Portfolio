@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, span {
+    color: rgb(20, 60, 45);
+    text-align: center; 
+    line-height: 1.25;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+
+img {
+    width: 20px;
+}
+
+
+/* NAVIGATION BAR */
+
