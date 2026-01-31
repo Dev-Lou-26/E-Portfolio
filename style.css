@@ -20,9 +20,132 @@ p {
 
 
 img {
-    width: 20px;
+    width: 100px;
 }
 
-
+body {
+    background-color: #F8F6F2
+}
 /* NAVIGATION BAR */
 
+nav { 
+    height: 100px; 
+    width: 100%;
+    max-width: 1000px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 0 auto; 
+}
+
+.personal__logo {
+    font-size: 40px; 
+    font-family: serif;
+    color: #88544e;
+    font-weight: 700;
+}
+
+.ul__nav {
+    list-style-type: none; 
+    display: flex; 
+}
+
+.nav__link--anchor {
+    text-decoration: none;
+    margin: 0 12px; 
+    font-weight: 700; 
+    color: #ba8984;
+    height: 20px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    }
+
+.link__hover-effect--black:hover {
+    color: #aa746e;
+    border-color: #aa746e;
+}
+
+.nav__link--anchor-primary {
+    background-color: #ba8984;
+    color: #F8F6F2;
+}
+
+.nav__link--anchor-primary:hover {
+    background-color: #aa746e
+}
+
+/* ABOUT ME */
+
+#about-me {
+    min-height: 100vh;
+    display: flex; 
+    flex-direction: column;
+}
+
+.row {
+    width: 100%;
+    max-width: 1000px; 
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.about-me__info--mask {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.me-photo {
+    border-radius: 40px;
+    box-shadow: 0 5px 10px #ffe7b6;
+}
+
+.about-me__info--title {
+    padding: 20px;
+}
+
+.text--gold {
+    color: #708C7E
+}
+
+.about-me__info--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.icon {
+    width: 80px;
+    margin: 8px 25px;
+    color: #aa746e;
+}
+
+.icon:hover {
+    color: #8b5650
+}
+
+.about-me__link {
+    height: 40px;
+}
+
+.about-me__img--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me__image {
+    width: 30vw;
+}
+
+.tech--container {
+    margin-top: 50px;
+}
