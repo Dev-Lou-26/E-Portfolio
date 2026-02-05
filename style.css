@@ -104,6 +104,19 @@ nav {
     justify-content: center;
 }
 
+/* ABOUT ME KEYFRAMES*/
+
+@keyframes fade-slide-up {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 
 /* ABOUT ME */
 
@@ -119,13 +132,13 @@ nav {
 }
 
 .about-me__info--mask {
-    width: 100%;
-    max-width: 1000px;
+    width: 200px;
+    height: 140px;
+    border-radius: 999px;
+    max-width: 100px;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    background-color: green;
+    overflow: hidden;
 }
 
 .me-photo {
